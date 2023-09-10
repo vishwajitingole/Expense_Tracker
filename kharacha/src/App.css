@@ -1,0 +1,25 @@
+.expenses {
+    background-color: black;
+    padding: 7px;
+    border-radius: 30px;
+    border: 1px solid #ececec;
+}
+
+.App {
+    background-color: rgb(48, 25, 52);
+    height: 100vh;
+}
+
+.App-header {
+    justify-content: center;
+    text-shadow: 10px white;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tittle {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 30px;
+    text-shadow: 1px 2px #ffffff;
+}
