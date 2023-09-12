@@ -6,7 +6,7 @@
     <div class="container">
         <h1>Expense Tracker with React</h1>
         <p>A user-friendly web app for tracking expenses, providing:</p>
-          <h1 style="text-align:center">Work in Progress</h1>
+         <h1 style="text-align: center;">Work in Progress</h1>
   <img src="https://t3.ftcdn.net/jpg/05/20/48/46/360_F_520484683_j4f2om7llvZD1aoL9HPZ2LmDeWWZoWK0.jpg" >
     <p>This page is currently under construction.</p>
         <ul>
