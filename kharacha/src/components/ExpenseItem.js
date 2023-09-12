@@ -3,6 +3,7 @@ import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 import Card from './card';
 import {useState} from 'react';
+import NewExpense from './NewExpense/NewExpense';
 
 
 function ExpenseItem({ title, amount, date })// Destructure the props here
@@ -18,7 +19,9 @@ function ExpenseItem({ title, amount, date })// Destructure the props here
   return (
     
     
+    
     <Card className="expense-item">
+      
       <ExpenseDate date={date} /> {/* Pass the date prop to ExpenseDate */}
       <div className="expense-item__description">
         <h2 className='tittle'>{updatedtitle}</h2>

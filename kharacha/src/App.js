@@ -1,6 +1,7 @@
 import React from 'react';
 import ExpenseItem from './components/ExpenseItem';
 import './App.css';
+import NewExpense from './components/NewExpense/NewExpense';
 
 function App() {
   const expenses = [
@@ -31,8 +32,11 @@ function App() {
         </div>
       </header>
 
+      <NewExpense />
+
       <div className="expenses" >
       {expenses.map((expense, index) => (
+
         <ExpenseItem
           key={index}
           title={expense.title}
