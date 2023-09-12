@@ -30,11 +30,19 @@ img {
     width: 600px;
 }
 
-img,
-.card:hover {
-    transform: translateY(-2px);
-    transition: transform 0.2s;
+.bhai:hover {
+    transform: translateX(-10px);
+    transition: transform 0.3s;
     box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+h1:hover {
+    transform: rotate(-20deg);
+    transform: skew(-20deg, 10deg);
+    transform: rotateY(-40deg);
+    /* Add a transition effect to the transform property. */
+    transition: transform 3s;
+    /* Add a box shadow on hover. */
 }
 
 @media (max-width: 580px) {
