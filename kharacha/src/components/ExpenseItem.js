@@ -11,6 +11,7 @@ function ExpenseItem({ title, amount, date }) { // Destructure the props here
       <div className="expense-item__description">
         <h2>{title}</h2>
         <div className="expense-item__price">₹ {amount}</div>
+        <button onClick={()=>{alert("Clicked");}} >Ugly Button</button>
       </div>
       </Card>
   );
