@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSokqx1EBJXYLa9Wrlnpx8HobOE7v5xINwnOjMRkCvlSAw6PvHPz0ism6Cy7i8zfRRkaEE&usqp=CAU'/>
+        <img src='https://im.indiatimes.in/content/2023/Jun/Untitled-design---2023-06-24T143900868_6496b2b10a63b.png?w=1200&h=900&cc=1'/>
         <div className="tittle">
         <h1>Expense Tracker</h1>
         </div>
