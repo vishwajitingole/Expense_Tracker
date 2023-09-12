@@ -37,6 +37,12 @@
     border-radius: 12px;
 }
 
+.expense-item:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s;
+    box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
 .expense-item__price:hover {
     transform: translateY(-4px);
     transition: transform 0.3s;
