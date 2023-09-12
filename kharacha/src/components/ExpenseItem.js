@@ -13,7 +13,7 @@ function ExpenseItem({ title, amount, date })// Destructure the props here
   //We need useState so that the changes will get reflected into the system
   
   let clickHandler=()=>{
-   setTitle("Hogya!");
+   setTitle("😁 Paisa Laayaa?");
    
   }
   return (
