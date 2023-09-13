@@ -48,7 +48,7 @@ function App() {
 {expenses.map((expense) => (
   <ExpenseItem
     key={expense.id} // Use a unique identifier here, e.g., expense.id
-    //It is important to pass an id so we could avoid conflicts in props
+    //It is important to pass an id so we could avoid conflicts in props 
     title={expense.title}
     amount={expense.amount}
     date={expense.date}
@@ -61,3 +61,26 @@ function App() {
 }
 
 export default App;
+
+
+/*  
+
+The place where we used expense.map works like a loop 
+or else we had to declare to multiple times
+
+      <ExpenseItem
+        title={expenses[0].title}
+        amount={expenses[0].amount}
+        date={expenses[0].date}
+      />
+      <ExpenseItem
+        title={expenses[1].title}
+        amount={expenses[1].amount}
+        date={expenses[1].date}
+      />
+      <ExpenseItem
+        title={expenses[2].title}
+        amount={expenses[2].amount}
+        date={expenses[2].date}
+      />
+      */
